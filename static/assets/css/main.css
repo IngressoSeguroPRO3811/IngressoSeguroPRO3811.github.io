@@ -1723,7 +1723,7 @@ input, select, textarea {
 			input[type="reset"].style12,
 			button.style12,
 			.button.style12 {
-				background: #124f2b url("images/overlay.png");
+				background: #3eed8792 url("images/overlay.png");
 				color: #fff;
 			}
 	
@@ -1748,7 +1748,7 @@ input, select, textarea {
 		input[type="reset"].style2,
 		button.style2,
 		.button.style2 {
-			background: #467034;
+			background: #34706f;
 			color: #fff;
 			box-shadow: inset 0px 0px 2px 0px #a0a1a7;
 		}
@@ -1774,7 +1774,7 @@ input, select, textarea {
 		input[type="reset"].style3,
 		button.style3,
 		.button.style3 {
-			background: #033820 url("images/overlay.png");
+			background: #030838 url("images/overlay.png");
 			color: #455c56;
 		}
 
@@ -1783,7 +1783,7 @@ input, select, textarea {
 			input[type="reset"].style3:hover,
 			button.style3:hover,
 			.button.style3:hover {
-				background-color: #03382074;
+				background-color: #030838;
 			}
 
 			input[type="button"].style3:active,
@@ -1791,7 +1791,7 @@ input, select, textarea {
 			input[type="reset"].style3:active,
 			button.style3:active,
 			.button.style3:active {
-				background-color: #03382074;
+				background-color: #030838;
 			}
 
 /* List */
@@ -1902,7 +1902,7 @@ input, select, textarea {
 
 		.feature-list h3 {
 			
-			color: #033820 !important;
+			color: #3eed87 !important;
 			margin: -0.35em 0 0.75em 0;
 			font-size: 1.15em;
 			letter-spacing: 0.05em;
@@ -1910,7 +1910,7 @@ input, select, textarea {
 			.feature-list h3:before {
 				display: block;
 				color: #fff;
-				background: #467034 url("images/overlay.png");
+				background: #3eed8792 url("images/overlay.png");
 				border-radius: 2.5em;
 				text-align: center;
 				width: 2.5em;
@@ -2076,14 +2076,14 @@ input, select, textarea {
 			}
 
 		.wrapper.style1 {
-			background: #467034 url("images/overlay.png");
+			background: #353657 url("images/overlay.png");
 			color: #eee;
 			color: rgba(255, 255, 255, 0.75);
 		}
 
 			.wrapper.style1 .title {
-				color: #467034;
-				background: #467034 url("images/overlay.png");
+				color: #353657;
+				background: #353657 url("images/overlay.png");
 				color: #fff;
 			}
 
@@ -2092,16 +2092,16 @@ input, select, textarea {
 			}
 
 		.wrapper.style2 {
-			background: #7fc05b url("images/overlay.png");
+			background: #0b6759 url("images/overlay.png");
 		}
 
 			.wrapper.style2 .title {
-				background: #7fc05b url("images/overlay.png");
-				color: #124f2b;
+				background: #0b6759 url("images/overlay.png");
+				color: #3eed87;
 			}
 			
 			.wrapper.style2 h2 {
-				color: #124f2b;
+				color: #3eed87;
 			}
 
 			.wrapper.style2 p {
@@ -2143,7 +2143,8 @@ input, select, textarea {
 		justify-content: center;
 		position: relative;
 		height: 24em;
-		background: url("../../images/banner.png") center center;
+		background: url("../../images/ingressos1.jpg") center center; 
+		/*background-color: #bc5511;*/
 		background-size: cover;
 		padding: 0;
 	}
@@ -2174,14 +2175,14 @@ input, select, textarea {
 		#logo h1 {
 			font-weight: 900;
 			text-transform: uppercase;
-			color: #fff;
+			color: #000000;
 			font-size: 2em;
 			letter-spacing: 0.25em;
 		}
 
 		#logo p {
-			color: #eee;
-			color: rgba(255, 255, 255, 0.5);
+			color: #000000;
+		    /*color: rgba(0, 0, 0, 0); */
 			text-transform: uppercase;
 			margin: 1.25em 0 0 0;
 			display: block;
@@ -2203,8 +2204,9 @@ input, select, textarea {
 		#nav > ul {
 			display: inline-block;
 			border-radius: 0.35em;
-			box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.25);
+			box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 1);
 			padding: 0 1.5em 0 1.5em;
+			background-color: #ffffff;
 		}
 
 			#nav > ul > li {
@@ -2219,8 +2221,8 @@ input, select, textarea {
 
 				#nav > ul > li > a, #nav > ul > li > span {
 					display: block;
-					color: #eee;
-					color: rgba(255, 255, 255, 0.75);
+					color: #000000;
+					color: rgba(0, 0, 0, 1);
 					text-transform: uppercase;
 					text-decoration: none;
 					font-size: 0.7em;
@@ -2236,11 +2238,11 @@ input, select, textarea {
 				}
 
 				#nav > ul > li:hover > a {
-					color: #fff;
+					color: #000000;
 				}
 
 				#nav > ul > li.active > a, #nav > ul > li.active > span {
-					color: #fff;
+					color: #000000;
 				}
 
 	.dropotron {
@@ -2306,8 +2308,8 @@ input, select, textarea {
 		#quem-somos p.style2 {
 			font-weight: 700;
 			color: #fff;
-			background-color: #033820; 
-			border-color: #222835;
+			background-color: #030838; 
+			border-color: #030838;
 			border-radius: 0.5em;
 			box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.25);
 			font-size: 2.75em;
