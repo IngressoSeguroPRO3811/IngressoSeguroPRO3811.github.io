@@ -2143,7 +2143,7 @@ input, select, textarea {
 		justify-content: center;
 		position: relative;
 		height: 24em;
-		background: url("../../images/ingressos1.jpg") center center; 
+		background: url("images/ingressos1.jpg") center center; 
 		/*background-color: #bc5511;*/
 		background-size: cover;
 		padding: 0;
